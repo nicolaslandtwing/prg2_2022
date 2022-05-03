@@ -1,23 +1,20 @@
-package ch.teko.prg2.tag01.input.reptition.demo1;
+package ch.teko.prg2.tag01.work.aufgabe3;
 
-public class Mensch {
-    // Attribute
+public class Person {
     private String name;
     private String vorname;
     private int alter;
+    private int gehalt;
+    private int ferien;
 
-    // Konstruktor(en)
-    public Mensch(String name, String vorname, int alter) {
+    public Person(String name, String vorname, int alter, int gehalt, int ferien){
         this.name = name;
         this.vorname = vorname;
         this.alter = alter;
+        this.gehalt = gehalt;
+        this. ferien = ferien;
     }
 
-    public Mensch(String name, String vorname) {
-        this(name, vorname, 18);
-    }
-
-    // Methoden am Beispiel von Getter- & Setter-Methoden
     public String getName() {
         return name;
     }
@@ -40,5 +37,21 @@ public class Mensch {
 
     public void setAlter(int alter) {
         this.alter = alter;
+    }
+
+    public int getGehalt() {
+        return gehalt;
+    }
+
+    public void setGehalt(int gehalt) {
+        this.gehalt = gehalt;
+    }
+
+    public int getFerien() {
+        return ferien;
+    }
+
+    public void setFerien(int ferien) {
+        this.ferien = ferien;
     }
 }
