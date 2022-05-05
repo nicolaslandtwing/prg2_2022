@@ -14,7 +14,7 @@ public class KinoTicket extends Ticket{
 
     @Override
     public double berechneTicketPreis() {
-        if (getFilmDauer() > 150) {
+        if (this.getFilmDauer() > 150) {
             this.setTicketPreis((this.getBasisPreis()) + 3);
         }
         else {
