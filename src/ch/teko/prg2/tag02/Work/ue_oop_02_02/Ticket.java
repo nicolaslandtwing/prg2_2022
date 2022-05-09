@@ -25,7 +25,7 @@ public abstract class Ticket {
     }
 
     public double getTicketPreis() {
-        return ticketPreis;
+        return this.ticketPreis;
     }
 
     public void setTicketPreis(double ticketPreis) {
