@@ -1,5 +1,7 @@
 package ch.teko.prg2.tag04.input.demoHashSet;
 
+import java.util.Objects;
+
 public class Student {
     private String surname;
     private String forename;
@@ -25,7 +27,7 @@ public class Student {
         this.forename = forename;
     }
 
-    @Override
+   @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -43,4 +45,6 @@ public class Student {
         result = 31 * result + (getForename() != null ? getForename().hashCode() : 0);
         return result;
     }
+
+
 }

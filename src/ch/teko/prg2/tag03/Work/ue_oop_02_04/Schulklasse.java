@@ -8,26 +8,26 @@ public class Schulklasse implements IStatistik {
     }
 
     @Override
-    public double median() {
-        double median = 0;
+    public double mittelwert() {
+        double mittelwert = 0;
         double sum = 0;
         for (int i = 0; i < this.noten.length; i++) {
             sum+=this.noten[i];
         }
-        median = sum/this.noten.length;
+        mittelwert = sum/this.noten.length;
 
-        return median;
+        return mittelwert;
     }
 
     @Override
-    public double mittelwert() {
-        double mittelwert = 0;
+    public double median() {
+        double median = 0;
         if (this.noten.length % 2 == 0) {
-            mittelwert = (this.noten[this.noten.length/2 -1] + this.noten [this.noten.length/2])/2;
+            median = (this.noten[this.noten.length/2 -1] + this.noten [this.noten.length/2])/2;
         }
         else {
-            mittelwert = this.noten[((this.noten.length+1)/2)-1];
+            median = this.noten[((this.noten.length+1)/2)-1];
         }
-        return mittelwert;
+        return median;
     }
 }

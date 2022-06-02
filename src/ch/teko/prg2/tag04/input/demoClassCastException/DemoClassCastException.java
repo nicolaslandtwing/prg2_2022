@@ -17,7 +17,7 @@ public class DemoClassCastException {
             Teacher o = (Teacher) iterator.next();
         }
 
-        // die zuverwendende Variante
+        // die zu verwendende Variante
         ArrayList<Teacher> newArrayList = new ArrayList<>();
         newArrayList.add(new Teacher("Glaus", "Marco"));
         //newArrayList.add(new Student("Meier", "Hans", 3.9));

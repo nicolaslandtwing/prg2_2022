@@ -11,9 +11,9 @@ public class Main {
         HashMap<Integer, Student> studentHashMap = new HashMap<>();
 
         // Schlüsselwert-Paare hinzufügen
-        studentHashMap.put(0123, new Student("Meier", "Hans"));
-        studentHashMap.put(0124, new Student("Tobler", "Peter"));
-        studentHashMap.put(0125, new Student("Hans", "Fritz"));
+        studentHashMap.put(123, new Student("Meier", "Hans"));
+        studentHashMap.put(124, new Student("Tobler", "Peter"));
+        studentHashMap.put(125, new Student("Hans", "Fritz"));
 
         // Schleife über alle Keys
         Set<Integer> keySet = studentHashMap.keySet();
@@ -37,6 +37,6 @@ public class Main {
         }
 
         // Key-value pair entfernen über den key
-        studentHashMap.remove(0123);
+        studentHashMap.remove(123);
     }
 }
