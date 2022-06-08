@@ -14,7 +14,7 @@ import java.util.Iterator;
                 // Fahrzeuge
                 Fahrzeug fahrzeug1 = new Fahrzeug("Rot"); Fahrzeug fahrzeug2 = new Fahrzeug("Gruen"); Fahrzeug fahrzeug3 = new Fahrzeug("Blau");
                 // Parkplaetze
-                ArrayList<Parkplatz> parkplaetze = new ArrayList<Parkplatz>();
+                ArrayList<Parkplatz> parkplaetze = new ArrayList<>();
 
                 parkplaetze.add(new Parkplatz(fahrzeug1));
                 parkplaetze.add(new Parkplatz(fahrzeug2));
@@ -25,7 +25,7 @@ import java.util.Iterator;
                 Parkhaus kesselturm = new Parkhaus(parkplaetze);
 
                 // Ausgabe
-                Iterator<Parkplatz> iterator = parkplaetze.iterator();
+                Iterator<Parkplatz> iterator = kesselturm.getParkplaetze().iterator();
                 while(iterator.hasNext()) {
                     Parkplatz p = iterator.next();
                     System.out.println(p.getFahrzeug().getFarbe());
