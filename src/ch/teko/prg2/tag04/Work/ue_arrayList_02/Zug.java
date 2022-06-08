@@ -2,7 +2,7 @@ package ch.teko.prg2.tag04.Work.ue_arrayList_02;
 
 import java.util.ArrayList;
 
-public class Zug implements IZug {
+/*public class Zug implements IZug {
     private long uid;
     private Kontrolleur kontrolleur;
 //    private ArrayList<Pendler> pendler;
@@ -28,3 +28,4 @@ public class Zug implements IZug {
     }
 
 }
+*/

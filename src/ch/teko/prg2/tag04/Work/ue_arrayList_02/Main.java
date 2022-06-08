@@ -1,4 +1,4 @@
-package ch.teko.prg2.tag04.Work.ue_arrayList_02;
+/*package ch.teko.prg2.tag04.Work.ue_arrayList_02;
 import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
@@ -37,7 +37,10 @@ public class Main {
 
 
         ArrayList<String> meineListe = new ArrayList<String>();
-        meineListe.add( new Integer(42) ); // <-- Kompilierfehler
-        String s = meineListe.get( 0 );
+       // meineListe.add(new Integer(42)); // <-- Kompilierfehler
+        String s = meineListe.get(0);
     }
 
+
+}
+*/

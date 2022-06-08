@@ -11,7 +11,7 @@ public class Linienplanung {
     if (i == 1){
         this.linie1.add(b);
     }
-    else-if (i ==2 ){
+    else if (i ==2 ){
         this.linie2.add(b);
         }
     }
