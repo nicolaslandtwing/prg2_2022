@@ -19,7 +19,7 @@ public class Main {
         ltis20.add(new Student("Studhalter", "Michael", 248));
         ltis20.add(new Student("Schneider", "Vreni", 249));
         ltis20.add(new Student("Schneider", "Vreni", 249));
-
+/*
         // Ausgabe zur Überprüfung
         ltis20.print();
 
@@ -36,5 +36,12 @@ public class Main {
 
         // Ausgabe zur Überprüfung
         ltis20.print();
+
+ */
+   //     System.out.println(" ");
+      //  ltis20.get("Studhalter", "Michael");
+        //System.out.println(ltis20.get("Meier", "Peter"));
+        // ltis20.get(79);
+        System.out.println(ltis20.get(79));
     }
 }

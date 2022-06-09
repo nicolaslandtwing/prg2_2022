@@ -1,9 +1,9 @@
 package ch.teko.prg2.tag05.W0rk.ue_hashMap;
 
 public class Student extends Person {
-    private int studentID;
+    private Integer studentID;
 
-    public Student(String name, String vorname, int studentID) {
+    public Student(String name, String vorname, Integer studentID) {
         super(name, vorname);
         this.studentID = studentID;
     }

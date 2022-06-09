@@ -36,5 +36,6 @@ public class Main {
 
         // Ausgabe zur Überprüfung
         ltis20.print();
+
     }
 }
