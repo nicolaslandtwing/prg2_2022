@@ -22,8 +22,9 @@ public class Linienplanung {
        Bus b = null;
 
        while (iteratorlinie1.hasNext()) {
-           if (iteratorlinie1.next().getInternalBusID() == internalBusID) {
-               b = iteratorlinie1.next();
+           Bus bid = iteratorlinie1.next();
+           if (bid.getInternalBusID() == internalBusID) {
+               b = bid;
            }
        }
        while (iteratorlinie2.hasNext()) {

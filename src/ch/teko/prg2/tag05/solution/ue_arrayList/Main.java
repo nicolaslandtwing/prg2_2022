@@ -22,7 +22,11 @@ public class Main {
         bus.printPassagiere();
 
         // Passagier "Suares" steigt aus
-        bus.aussteigen("Suares");
+
+
+
+       /*
+       bus.aussteigen("Suares");
 
         // Ausgabe zur Überprüfung
         bus.printPassagiere();
@@ -41,5 +45,9 @@ public class Main {
 
         // Ausgabe zur Überprüfung
         System.out.println(linienplanung.toString());
+
+
+
+        */
     }
 }

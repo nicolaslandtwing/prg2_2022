@@ -18,7 +18,7 @@ public class Bus {
     }
 
     public void einsteigen(Passagier p) {
-
+        this.reisende.add(p);
     }
 
     public void aussteigen(String name) {
