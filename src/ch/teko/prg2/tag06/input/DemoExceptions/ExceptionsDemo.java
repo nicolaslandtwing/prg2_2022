@@ -1,4 +1,4 @@
-package ch.teko.prg2.tag06.input.DemoExceptions;
+package ch.teko.prg2.tag06.DemoExceptions;
 
 import java.io.FileWriter;
 

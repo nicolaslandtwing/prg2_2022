@@ -1,4 +1,4 @@
-package ch.teko.prg2.tag06.input.work.CommandLineReaderApp;
+package ch.teko.prg2.tag06.work.CommandLineReaderApp;
 
 public interface ICommandLineReader {
     String readStringFromCommandLine();

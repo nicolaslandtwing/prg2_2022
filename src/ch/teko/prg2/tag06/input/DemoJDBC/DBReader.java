@@ -1,4 +1,4 @@
-package ch.teko.prg2.tag06.input.DemoJDBC;
+package ch.teko.prg2.tag06.DemoJDBC;
 
 import java.sql.*;
 import java.util.Scanner;

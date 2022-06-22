@@ -1,4 +1,4 @@
-package ch.teko.prg2.tag06.input.DemoExceptions;
+package ch.teko.prg2.tag06.DemoExceptions;
 
 /**
  * mögliche RuntimeException, ist "unchecked" und muss nicht zwingend behandelt werden. Compiler reklamiert nicht.

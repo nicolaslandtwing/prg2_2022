@@ -1,6 +1,5 @@
 package ch.teko.prg2.tag06.input.CommandLineReaderApp;
 
-import java.sql.Connection;
 import java.sql.ResultSet;
 
 public interface IChinookDB {
